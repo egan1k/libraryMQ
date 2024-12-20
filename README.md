@@ -50,7 +50,7 @@ docker-compose up --build
 
 - **User Search Service**:
   ```bash
-  docker-compose exec user-search-service bash -c "cd user_search_service && python manage.py makemigrations && python manage.py migrate"
+  docker-compose exec user-search-service bash -c "cd user_search && python manage.py makemigrations && python manage.py migrate"
   ```
 
 ### 4. Создание суперпользователя (опционально)

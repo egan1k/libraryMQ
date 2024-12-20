@@ -74,5 +74,5 @@ docker-compose up --build
 
 - **User Search Service**:
   ```bash
-  docker-compose exec user-search-service bash -c "cd user_search_service && python manage.py createsuperuser"
+  docker-compose exec user-search-service bash -c "cd user_search && python manage.py createsuperuser"
   ```
